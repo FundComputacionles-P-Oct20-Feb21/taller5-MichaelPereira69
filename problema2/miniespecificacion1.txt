@@ -1,0 +1,24 @@
+Solución que imprima el costo de un pedido de un artículo del cual se tiene la descripción,
+ la cantidad que se requiere y el precio unitario. 
+Si la cantidad pedida excede de 50 unidades, se hace un descuento de 15%.
+
+
+---------Miniespecificaciones
+
+
+1.Inicio
+2.costo , d[0.n]
+3.unidades, i[0.n]
+4.precioUnitario, i[0.n]
+4.descuento, i[0.n]
+5.descuentos <-- 15
+6.Escribir "precio unitario"
+7.Lea precioUnitario 
+8.Escribir "numero de unidades "
+9.Lea unidades
+10. costo <--( preciounitario * unidades) 
+11. Si unidades > 50 entonces
+12.  descuento <-- (costo * descuento)/100
+13.  Escrbir "Costo total: " + costo
+14.fin si
+15.Escriba "costo total: " + costo
